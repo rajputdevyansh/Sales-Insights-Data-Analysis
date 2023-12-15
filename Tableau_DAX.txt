@@ -1,0 +1,6 @@
+Data Filter: Sales Amount atleast 1
+Dara Filter: Filter out Mark097, Mark999 from Markets_code
+
+Calculated: 
+Sales Amount INR
+IF [Currency]='USD' THEN [Sales Amount]*83.31 ELSE [Sales Amount] END
